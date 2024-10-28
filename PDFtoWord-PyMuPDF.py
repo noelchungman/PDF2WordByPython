@@ -1,13 +1,8 @@
 # pip install PyMuPDF python-docx
 # python PDFtoWord.py
 
-# git init
-# git add .
-# git commit -m "Initial commit"
-# git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-# git push -u origin master
-
-# Comment: this library cannot export table in PDF to word, worse than Converter
+# Comment: this library cannot export table in PDF to word, worse than pdf2docx, better than pdfplumber
+# pdf2docx > PyMuPDF > pdfplumber
 
 import fitz  # PyMuPDF
 from docx import Document
